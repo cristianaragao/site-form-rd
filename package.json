@@ -1,0 +1,21 @@
+{
+  "name": "site-form-rd",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/cristianaragao/site-form-rd.git",
+  "author": "Cristian Aragão",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "scripts": {
+    "build": "babel src -d build",
+    "prepare": "yarn run build"
+   },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
